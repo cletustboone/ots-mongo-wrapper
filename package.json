@@ -2,8 +2,11 @@
   "name": "ots-mongo-wrapper",
   "version": "0.1.0",
   "author": "Clay Simmons",
-  "private": true,
   "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cletustboone/ots-mongo-wrapper.git"
+  },
   "dependencies": {
     "mongodb": "*"
   }

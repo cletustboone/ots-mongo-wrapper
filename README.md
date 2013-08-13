@@ -3,6 +3,8 @@ ots-mongo-wrapper
 
 Wraps the node MongoDB native driver in an event emitter that emits `connected` when the database connection is established.
 
+`npm install ots-mongo-wrapper`
+
 Connection Options
 ------------------
 
