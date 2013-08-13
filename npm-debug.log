@@ -1,0 +1,94 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.1.45
+3 info using node@v0.8.4
+4 verbose node symlink /usr/local/bin/node
+5 verbose config file /Users/clay/.npmrc
+6 verbose config file /usr/local/etc/npmrc
+7 verbose config file /usr/local/lib/node_modules/npm/npmrc
+8 verbose publish [ '.' ]
+9 verbose read json /Users/clay/Dropbox/12c/ots-modules/ots-mongo-wrapper/package.json
+10 verbose cache add [ '.', null ]
+11 silly cache add name=undefined spec="." args=[".",null]
+12 verbose parsed url { pathname: '.', path: '.', href: '.' }
+13 silly lockFile 3a52ce78- .
+14 verbose lock . /Users/clay/.npm/3a52ce78-.lock
+15 verbose read json package.json
+16 verbose tar pack [ '/var/folders/hp/c2_grwgj3sj_g3tpxgrdz9lw0000gp/T/npm-17390/1376406172182-0.44747684919275343/tmp.tgz',
+16 verbose tar pack   '.' ]
+17 verbose tarball /var/folders/hp/c2_grwgj3sj_g3tpxgrdz9lw0000gp/T/npm-17390/1376406172182-0.44747684919275343/tmp.tgz
+18 verbose folder .
+19 info prepublish ots-mongo-wrapper@0.1.0
+20 silly lockFile bac694bd-2182-0-44747684919275343-tmp-tgz /var/folders/hp/c2_grwgj3sj_g3tpxgrdz9lw0000gp/T/npm-17390/1376406172182-0.44747684919275343/tmp.tgz
+21 verbose lock /var/folders/hp/c2_grwgj3sj_g3tpxgrdz9lw0000gp/T/npm-17390/1376406172182-0.44747684919275343/tmp.tgz /Users/clay/.npm/bac694bd-2182-0-44747684919275343-tmp-tgz.lock
+22 silly lockFile bac694bd-2182-0-44747684919275343-tmp-tgz /var/folders/hp/c2_grwgj3sj_g3tpxgrdz9lw0000gp/T/npm-17390/1376406172182-0.44747684919275343/tmp.tgz
+23 verbose tar unpack /var/folders/hp/c2_grwgj3sj_g3tpxgrdz9lw0000gp/T/npm-17390/1376406172182-0.44747684919275343/tmp.tgz
+24 silly lockFile 4203377a-2182-0-44747684919275343-package /var/folders/hp/c2_grwgj3sj_g3tpxgrdz9lw0000gp/T/npm-17390/1376406172182-0.44747684919275343/package
+25 verbose lock /var/folders/hp/c2_grwgj3sj_g3tpxgrdz9lw0000gp/T/npm-17390/1376406172182-0.44747684919275343/package /Users/clay/.npm/4203377a-2182-0-44747684919275343-package.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm extractEntry README.md
+29 silly gunzTarPerm extractEntry index.js
+30 silly gunzTarPerm extractEntry lib/db.js
+31 verbose read json /var/folders/hp/c2_grwgj3sj_g3tpxgrdz9lw0000gp/T/npm-17390/1376406172182-0.44747684919275343/package/package.json
+32 silly lockFile 4203377a-2182-0-44747684919275343-package /var/folders/hp/c2_grwgj3sj_g3tpxgrdz9lw0000gp/T/npm-17390/1376406172182-0.44747684919275343/package
+33 verbose from cache /var/folders/hp/c2_grwgj3sj_g3tpxgrdz9lw0000gp/T/npm-17390/1376406172182-0.44747684919275343/package/package.json
+34 verbose tar pack [ '/Users/clay/.npm/ots-mongo-wrapper/0.1.0/package.tgz',
+34 verbose tar pack   '/var/folders/hp/c2_grwgj3sj_g3tpxgrdz9lw0000gp/T/npm-17390/1376406172182-0.44747684919275343/package' ]
+35 verbose tarball /Users/clay/.npm/ots-mongo-wrapper/0.1.0/package.tgz
+36 verbose folder /var/folders/hp/c2_grwgj3sj_g3tpxgrdz9lw0000gp/T/npm-17390/1376406172182-0.44747684919275343/package
+37 silly lockFile 92386fd2--mongo-wrapper-0-1-0-package-tgz /Users/clay/.npm/ots-mongo-wrapper/0.1.0/package.tgz
+38 verbose lock /Users/clay/.npm/ots-mongo-wrapper/0.1.0/package.tgz /Users/clay/.npm/92386fd2--mongo-wrapper-0-1-0-package-tgz.lock
+39 silly lockFile 92386fd2--mongo-wrapper-0-1-0-package-tgz /Users/clay/.npm/ots-mongo-wrapper/0.1.0/package.tgz
+40 silly lockFile f9cb0c6a--ots-mongo-wrapper-0-1-0-package /Users/clay/.npm/ots-mongo-wrapper/0.1.0/package
+41 verbose lock /Users/clay/.npm/ots-mongo-wrapper/0.1.0/package /Users/clay/.npm/f9cb0c6a--ots-mongo-wrapper-0-1-0-package.lock
+42 silly lockFile f9cb0c6a--ots-mongo-wrapper-0-1-0-package /Users/clay/.npm/ots-mongo-wrapper/0.1.0/package
+43 verbose tar unpack /Users/clay/.npm/ots-mongo-wrapper/0.1.0/package.tgz
+44 silly lockFile f9cb0c6a--ots-mongo-wrapper-0-1-0-package /Users/clay/.npm/ots-mongo-wrapper/0.1.0/package
+45 verbose lock /Users/clay/.npm/ots-mongo-wrapper/0.1.0/package /Users/clay/.npm/f9cb0c6a--ots-mongo-wrapper-0-1-0-package.lock
+46 silly gunzTarPerm modes [ '755', '644' ]
+47 silly gunzTarPerm extractEntry package.json
+48 silly gunzTarPerm extractEntry README.md
+49 silly gunzTarPerm extractEntry index.js
+50 silly gunzTarPerm extractEntry lib/db.js
+51 verbose read json /Users/clay/.npm/ots-mongo-wrapper/0.1.0/package/package.json
+52 silly lockFile f9cb0c6a--ots-mongo-wrapper-0-1-0-package /Users/clay/.npm/ots-mongo-wrapper/0.1.0/package
+53 silly shasum updated bytes 1187
+54 info shasum 9c9273dc025fe52e09eaa99996edfeb4375c079d
+54 info shasum /Users/clay/.npm/ots-mongo-wrapper/0.1.0/package.tgz
+55 verbose from cache /Users/clay/.npm/ots-mongo-wrapper/0.1.0/package/package.json
+56 verbose chmod /Users/clay/.npm/ots-mongo-wrapper/0.1.0/package.tgz 644
+57 verbose chown /Users/clay/.npm/ots-mongo-wrapper/0.1.0/package.tgz [ 502, 20 ]
+58 silly lockFile 3a52ce78- .
+59 silly publish { name: 'ots-mongo-wrapper',
+59 silly publish   version: '0.1.0',
+59 silly publish   author: { name: 'Clay Simmons' },
+59 silly publish   private: true,
+59 silly publish   main: 'index',
+59 silly publish   dependencies: { mongodb: '*' },
+59 silly publish   readme: 'ots-mongo-wrapper\n=================\n\nWraps the node MongoDB native driver in an event emitter that emits `connected` when the database connection is established.\n\nConnection Options\n------------------\n\nThe constructor expects a connection object like this:\n\n    {\n      "host": "localhost",\n      "port": 27021,\n      "server_options": {\n        "auto_reconnect": false,\n        "poolSize": 20\n      },\n      "database": "DBNAME"\n    }\n\nThe options object is formatted to a [standard MongoDB URL connection string](http://mongodb.github.io/node-mongodb-native/driver-articles/mongoclient.html).\n\nHow to interact with it\n-----------------------\n\n    var\n    MongoWrapper = require("ots-mongo-wrapper"),\n    dbs          = require("./path-to-connection-file"),\n    env          = process.env.NODE_ENV || null,\n    mongoWrapper = new MongoWrapper( dbs[env] );\n    // Wait for connected event.\n    mongoWrapper.on( "connected", function( db ) {\n      db.collection("collectionName").find().toArray(function( err, docs ) {\n        // Do stuff with docs.\n      });\n    });\n',
+59 silly publish   _id: 'ots-mongo-wrapper@0.1.0',
+59 silly publish   description: 'ots-mongo-wrapper =================',
+59 silly publish   dist: { shasum: '9c9273dc025fe52e09eaa99996edfeb4375c079d' } }
+60 error Error: This package has been marked as private
+60 error Remove the 'private' field from the package.json to publish it.
+60 error     at publish_ (/usr/local/lib/node_modules/npm/lib/publish.js:75:31)
+60 error     at Array.1 (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+60 error     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+60 error     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:14:28)
+60 error     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+60 error     at /usr/local/lib/node_modules/npm/lib/publish.js:54:5
+60 error     at /usr/local/lib/node_modules/npm/lib/cache.js:634:14
+60 error     at exports.unlock (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:36:7)
+60 error     at fs.close (/usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:94:5)
+60 error     at Object.oncomplete (fs.js:297:15)
+61 error If you need help, you may report this log at:
+61 error     <http://github.com/isaacs/npm/issues>
+61 error or email it to:
+61 error     <npm-@googlegroups.com>
+62 error System Darwin 12.4.0
+63 error command "node" "/usr/local/bin/npm" "publish"
+64 error cwd /Users/clay/Dropbox/12c/ots-modules/ots-mongo-wrapper
+65 error node -v v0.8.4
+66 error npm -v 1.1.45
+67 verbose exit [ 1, true ]

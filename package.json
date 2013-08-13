@@ -1,0 +1,10 @@
+{
+  "name": "ots-mongo-wrapper",
+  "version": "0.1.0",
+  "author": "Clay Simmons",
+  "private": true,
+  "main": "index",
+  "dependencies": {
+    "mongodb": "*"
+  }
+}
