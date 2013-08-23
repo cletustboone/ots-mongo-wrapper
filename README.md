@@ -26,14 +26,25 @@ How to interact with it
 -----------------------
 ```JavaScript
 var
-MongoWrapper = require("ots-mongo-wrapper"),
-dbs          = require("./path-to-connection-file"),
-env          = process.env.NODE_ENV || null,
-mongoWrapper = new MongoWrapper( dbs[env] );
+dbs = require("./path-to-connection-file"),
+env = process.env.NODE_ENV || null,
+db  = require("ots-mongo-wrapper")(dbs[env]);
+
+db.collection("collectionName").find().toArray(function( err, docs ) {
+  // Do stuff with docs.
+});
+```
+There's a race condition above where you can start receiving queries before a database connection is established. The module will simply log to stdout that a query to a collection was received before the database connection was ready. Once the database connection is established, you'll start getting results as normal. If you want to avoid the race condition, do the following:
+
+```JavaScript
+var
+dbs = require("./path-to-connection-file"),
+env = process.env.NODE_ENV || null,
+db  = require("ots-mongo-wrapper")( dbs[env] );
 
 // Wait for connected event.
-mongoWrapper.on( "connected", function( db ) {
-    db.collection("collectionName").find().toArray(function( err, docs ) {
+db.on( "connected", function( readyDb ) {
+    readyDb.collection("collectionName").find().toArray(function( err, docs ) {
         // Do stuff with docs.
     });
 });

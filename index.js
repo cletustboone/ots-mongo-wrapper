@@ -1,1 +1,1 @@
-module.exports = require('./lib/db.js').OtsMongoWrapper;
+module.exports = require('./lib/db.js').instance;
