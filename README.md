@@ -49,3 +49,8 @@ db.on( "connected", function( readyDb ) {
     });
 });
 ```
+
+Multiple Connections
+--------------------
+
+You can connect to multiple databases. The module keeps a hash of connections. The hash key is made up of the options you pass when you require. If you need the database connection you already established in another module, just pass in the identical options and you will get that client instance back. A new instance will not be created.
