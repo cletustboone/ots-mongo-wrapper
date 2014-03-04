@@ -41,6 +41,7 @@ For a replica set, a connection object would look like this:
     "auto_reconnect": false,
     "poolSize": 20
   },
+  "connection_options": "?replicaSet=REPLSETNAME",
   "database": "DBNAME"
 }
 ```
