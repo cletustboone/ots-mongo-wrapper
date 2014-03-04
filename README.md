@@ -20,6 +20,31 @@ The constructor expects a connection object like this:
   "database": "DBNAME"
 }
 ```
+For a replica set, a connection object would look like this:
+```JSON
+{
+  "servers": [
+    {
+      "host": "localhost",
+      "port": 27017
+    },
+    {
+      "host": "localhost",
+      "port": 27018
+    },
+    {
+      "host": "localhost",
+      "port": 27019
+    },
+  ],
+  "server_options": {
+    "auto_reconnect": false,
+    "poolSize": 20
+  },
+  "database": "DBNAME"
+}
+```
+
 The options object is formatted to a [standard MongoDB URL connection string](http://mongodb.github.io/node-mongodb-native/driver-articles/mongoclient.html).
 
 How to interact with it
