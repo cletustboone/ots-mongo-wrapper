@@ -8,6 +8,6 @@
     "url": "https://github.com/cletustboone/ots-mongo-wrapper.git"
   },
   "dependencies": {
-    "mongodb": "*"
+    "mongodb": "^2.0.42"
   }
 }
